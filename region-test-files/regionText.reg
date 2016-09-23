@@ -1,0 +1,4 @@
+text 30p 40p # color=pink text={text test 3 } edit=0 highlite=0  font="BRAGGADOCIO 10 normal roman"
+circle  202.4844693750341 47.23118060364845 13.9268922364868 #  text={physical;circle ;; color=cyan } color=cyan
+J2000;box 202.4844693750341 47.23118060364845 0.0069268922364 0.0069268922364  0 # color=red text={box on # J2000 with size ## 0.0069268922364}
+circle  202.4844693750341p 47.23118060364845p 0.00239268922364868 # color=#B8E986 text="image ; circle # color=#B8E986"
