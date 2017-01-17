@@ -1,0 +1,19 @@
+#
+# =======================================================================
+# ------ Ignore file of the "ife" repository
+# =======================================================================
+#
+# -- ignore tmp files that are produce by programs such a vim, python and finder
+#
+*.ipr
+*.iws
+*.iml
+*.swp
+*.iml
+*.pyc
+.DS_Store
+*~
+#
+# -- ignore IntelliJ project files
+#
+.idea/
