@@ -1,0 +1,4481 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.1">
+<DEFINITIONS>
+<COOSYS ID="J2000" equinox="2000." epoch="2000." system="eq_FK5" />
+</DEFINITIONS>
+<RESOURCE type="results">
+<DESCRIPTION>
+Results from query to  NASA/IPAC Extragalactic Database (NED),
+which is operated by the Jet Propulsion Laboratory, California Institute of
+Technology, under contract with the National Aeronautics and Space Administration.
+This work was (partially) supported by the US National Virtual Observatory
+development project, which is funded by the National Science Foundation
+under cooperative agreement AST0122449 with The Johns Hopkins University.
+</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<PARAM name="queryDateTime"  ucd="time.creation" datatype="char" arraysize="*" value="2017-06-19T13:23:58PDT"/>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031                   ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>NGC 0224</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>Andromeda Galaxy</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>UGC 00454</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>CGCG 535-017</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>CGCG 0040.0+4100</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>MCG +07-02-016</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>GIN 801</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>B3 0040+409</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>2MASX J00424433+4116074</TD>
+<TD>IrS</TD>
+</TR>
+<TR>
+<TD>IRAS  00400+4059</TD>
+<TD>IrS</TD>
+</TR>
+<TR>
+<TD>IRAS F00400+4059</TD>
+<TD>IrS</TD>
+</TR>
+<TR>
+<TD>KTG 01C</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>LDCE 0031 NED007</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>HDCE 0029 NED003</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>LQAC 010+041 001</TD>
+<TD>QSO</TD>
+</TR>
+<TR>
+<TD>HOLM 017A</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>NSA 127580</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>PGC 002557</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>UZC J004244.3+411608</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>11HUGS 013</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>87GB 004002.2+405940</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>87GB[BWE91] 0040+4059</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>6C B004001.6+410004</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>MY 0040+409A</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>CXO J004244.2+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXO J004244.3+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.3+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>RX J0042.6+4115</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>1RXS J004241.8+411535</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MAXI J0043+410</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2PBC J0042.6+4111</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1010</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004244.1+411607</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004244.5+411611</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004244.4+411612</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>EXSS 0039.9+4059</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>1H 0039+408</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>1ES 0039+409</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XSS J00425+4102</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2FGL J0042.5+4114</TD>
+<TD>GammaS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 44</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[SPB93] 010</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>LGG 011:[G93] 001</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>[MHH96] J004241+411531</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[VCV2001] J004244.3+411610</TD>
+<TD>G</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-010  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 321</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 001</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031*                  ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031*</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004244.42+411608.3    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004244.42+411608.3</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-09b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-09b</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.3+411607</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-009  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[DKG2004] r1-009  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[O2006] J004244.30+411607.3</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 002</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[ONB2010] T3-11</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.3+411607          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.3+411607</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.4+411607          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.4+411607</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.3+411605          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.3+411605</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.3+411605</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-021  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 003</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for 2XMM J004244.3+411604         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>2XMM J004244.3+411604</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.9+411610          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.9+411610</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 256</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.2+411613          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.2+411613</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.2+411614</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-022  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 004</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 259</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.1+411603          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.1+411603</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.0+411604</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-033  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 258</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 316       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 316</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXOM31 J004243.8+411611       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXOM31 J004243.8+411611</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-027  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 005</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CFN87] Nova 07   ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CFN87] Nova 07</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0902</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.8+411612          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.8+411612</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.8+411603          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.8+411603</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.8+411604</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004244.2+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004244.3+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-023  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1324</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 006</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 254</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for 2XMM J004244.5+411601         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>2XMM J004244.5+411601</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 008       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 008</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>NGC 0224:[HCB2006] P008</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 009       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 009</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004244.6+411618          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004244.6+411618</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004244.6+411618</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004244.6+411615</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004244.5+411618</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-008  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 007</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 264</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004245.2+411611          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004245.2+411611</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004245.2+411611</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-020  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 008</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 272</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004245.5+411608          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004245.5+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004245.5+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-007  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 009</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 274</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for [COB2014] J004243.14+411604.60">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>[COB2014] J004243.14+411604.60</TD>
+<TD>VisS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for 37W 135                       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>37W 135</TD>
+<TD>RadioS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004245.1+411621</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1015</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004244.8+411621</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-004  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 325</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 010</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for [COB2014] J004243.13+411604.10">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>[COB2014] J004243.13+411604.10</TD>
+<TD>VisS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.1+411604          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.1+411604</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.1+411604</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-035  </TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[DKG2004] r1-035  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[WGK2004] r1-035  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[O2006] J004243.00+411603.1</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[ONB2010] T2-27</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[COB2014] J004243.11+411604.2 </TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 248</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for 2XMM J004244.5+411553         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>2XMM J004244.5+411553</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for [COB2014] J004243.11+411603.50">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>[COB2014] J004243.11+411603.50</TD>
+<TD>VisS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for [COB2014] J004243.09+411603.80">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>[COB2014] J004243.09+411603.80</TD>
+<TD>VisS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SN 1885A                      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SN 1885A</TD>
+<TD>SN</TD>
+</TR>
+<TR>
+<TD>NGC 0224:SN 1885A</TD>
+<TD>SN</TD>
+</TR>
+<TR>
+<TD>S And</TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>[COB2014] J004243.09+411604.60</TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0894</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CFN87] Nova 27   ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CFN87] Nova 27</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0905</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004245.1+411621          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004245.1+411621</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 47</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 269</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[BGM2013] 13      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[BGM2013] 13</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 007       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 007</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1323</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[MMD2006] 1300    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1300</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 454       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 454</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2010-01d         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2010-01d</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 003       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 003</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1297</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for 2XMM J004243.9+411550         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>2XMM J004243.9+411550</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for RX J0042.7+4116               ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>RX J0042.7+4116</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[SHP97] 198</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2009-10c         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2009-10c</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXO J004245.7+411554</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.8+411628          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.8+411628</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.7+411629</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-029  </TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004246.0+411619          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004246.0+411619</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004245.9+411619</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004246.0+411615</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-019  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 012</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 277</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.8+411629          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.8+411629</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.8+411629</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-011  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 011</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 255</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for [PFJ93] 43                    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>[PFJ93] 43</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGG2012a] T06</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004246.4+411610          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004246.4+411610</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 283</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 002       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 002</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>NGC 0224:[HCB2006] P002</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 006       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 006</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[BGM2013] 11      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[BGM2013] 11</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.0+411608          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.0+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXO J004242.1+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004242.1+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0990</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.1+411608</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004242.1+411607</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004242.1+411607</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-005  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 310</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 014</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 236</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.7+411632          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.7+411632</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.7+411632</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1005</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004243.6+411632</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004243.7+411631</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004243.7+411631</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-012  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 319</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 013</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 252</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for NVSS J004246+411610           ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>NVSS J004246+411610</TD>
+<TD>RadioS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2001-01c         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2001-01c</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N17</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXO J004242.4+411553</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004242.4+411553</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0994</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.4+411554</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004242.4+411552</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004242.5+411550</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[CJF89] 005</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 41</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-014  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 314</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1339</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>NGC 0224:[HCB2006] P005</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 015</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 241</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for GALEXASC J004244.90+411543.0  ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>GALEXASC J004244.90+411543.0  </TD>
+<TD>UvS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 010       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 010</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1309</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for RX J0042.7+4115               ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>RX J0042.7+4115</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMSL1 J004243.4+411543</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[SHP97] 193</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2003-10a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2003-10a</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N46</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-11d         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-11d</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N61</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2007-08e         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2007-08e</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[BGP2014] 270     ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[BGP2014] 270</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for XMMSL1 J004241.8+411604       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>XMMSL1 J004241.8+411604</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[R64] Nova 24     ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[R64] Nova 24</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0886</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.9+411543          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.9+411543</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 247</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.7+411544          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.7+411544</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004246.9+411615          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004246.9+411615</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004246.9+411615</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1023</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004246.8+411616</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004246.9+411616</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004247.0+411616</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 49</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-003  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 334</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 017</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 286</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXOM31 J004242.9+411543       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXOM31 J004242.9+411543</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0997</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.9+411542</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 42</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-013  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 317</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 016</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[BGM2013] 15      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[BGM2013] 15</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 072       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 072</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1299</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.3+411544          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.3+411544</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 239</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004246.1+411543          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004246.1+411543</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004246.1+411543</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004246.1+411545</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 48</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-018  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 332</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 019</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 280</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-11f         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-11f</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N59</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXO J004247.1+411619</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[RCD89] 137</TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0922</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004241.4+411617          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004241.4+411617</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 230</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2001-10c         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2001-10c</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N28</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.1+411640          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.1+411640</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 249</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXOM31 J004243.1+411640       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXOM31 J004243.1+411640</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.8+411639</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-024  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[WGM2004] J004243.21+411640.3 </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 316</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 018</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 020       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 020</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1290</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-02a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-02a</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N53</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-10b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-10b</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N56</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2003-08c         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2003-08c</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N44</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXO J004241.2+411615</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2001-12a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2001-12a</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N30</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004247.1+411628          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004247.1+411628</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004247.1+411628</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1024</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004247.0+411629</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004247.1+411627</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004247.2+411627</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[CJF89] 013</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 50</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-002  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[WGM2004] J004247.18+411628.5 </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 335</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1312</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 020</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SCM2012] PN205</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGM2013] 16</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 289</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CFN87] Nova 22   ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CFN87] Nova 22</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0919</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 012       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 012</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1321</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>NGC 0224:[HCB2006] P012</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[MMD2006] 1306    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1306</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 001       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 001</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1326</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>NGC 0224:[HCB2006] P001</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for HELGA 258                     ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>HELGA 258</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004240.8+411609          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004240.8+411609</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 016       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 016</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1341</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXOM31 J004241.8+411635       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXOM31 J004241.8+411635</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0985</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0985 ID</TD>
+<TD>Blue*</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004241.8+411635</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004241.6+411635</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004241.7+411635</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[WGM2006] r1-036  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SPH2008] 881</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGG2012a] T05</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 233</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[R73] Nova 60     ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[R73] Nova 60</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0908</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 323       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 323</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1295</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[VG2007] 021      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[VG2007] 021</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 244</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2009-08d         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2009-08d</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004247.8+411623          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004247.8+411623</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004247.8+411623</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-017  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 022</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 294</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for NBol 041                      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>NBol 041</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004248+411601</TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[JSD2012] 1391</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[FJW2014] 1391</TD>
+<TD>*Cl</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2004-01b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2004-01b</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N51</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>CXO J004241.2+411544</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SKHV vdB2                     ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SKHV vdB2</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>Bol 353</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004247+411539</TD>
+<TD>*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004247.8+411549          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004247.8+411549</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004247.8+411549</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004247.8+411550</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1034</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004247.9+411549</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004247.8+411548</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004247.9+411550</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-025  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[DKG2004] r1-025  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 023</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SPH2008] 884</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 296</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.0+411532          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.0+411532</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004242.0+411532</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.0+411533</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004242.0+411531</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-031  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 024</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SPH2008] 882</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 235</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for XMMSL1 J004247.7+411545       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>XMMSL1 J004247.7+411545</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2005-05b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2005-05b</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[VG2007] 025      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[VG2007] 025</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 273</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004245.0+411523          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004245.0+411523</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004245.0+411523</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004244.9+411525</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[CJF89] 021</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-026  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[WGM2004] J004245.09+411523.3 </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 327</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1266</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 026</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SCM2012] PN201</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 268</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 461       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 461</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004248.15+411547.9    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004248.15+411547.9</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2009-05a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2009-05a</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 074       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 074</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1347</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004240.4+411545          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004240.4+411545</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 220</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 081       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 081</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1286</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[MMD2006] 1296    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1296</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[MMD2006] 1303    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1303</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for NBol 039                      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>NBol 039</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>C400440593</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>ACH 06</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[ACH92] F01N17</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004248+411548</TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[JSD2012] 1390</TD>
+<TD>*Cl</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004245.22+411658.3    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004245.22+411658.3</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004240.11+411550.4    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004240.11+411550.4</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2003-01b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2003-01b</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N37</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004248.7+411624          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004248.7+411624</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004248.6+411624</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004248.7+411624</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-016  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 027</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 301</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004248.13+411637.7    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004248.13+411637.7</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2002-08b         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2002-08b</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N36</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004248.53+411549.0    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004248.53+411549.0</TD>
+<TD>IrS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[FJW2014] 1390</TD>
+<TD>*Cl</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 443       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 443</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[MMD2006] 1325    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1325</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004243.81+411701.3    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004243.81+411701.3</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004239.9+411547          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004239.9+411547</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004239.9+411547</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0971</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004240.0+411547</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 37</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-015  </TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 299</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 2825</TD>
+<TD>EmLS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 028</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 217</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for NBol 095                      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>NBol 095</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>CXO J004247.8+411532</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004247.8+411533</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 1033</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004247.8+411533</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 52</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-006  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004248+411537</TD>
+<TD>*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 338</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 031</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGM2013] 17</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 297</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004240.65+411534.9    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004240.65+411534.9</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004239.5+411614          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004239.5+411614</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004239.5+411614</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[WGK2004] r1-034  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 029</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGM2013] 09</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 214</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004241.18+411527.6    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004241.18+411527.6</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.16+411605.7    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.16+411605.7</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004242.5+411659          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004242.5+411659</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004242.5+411659</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004242.3+411658</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[PFJ93] 40</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-030  </TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 312</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 312 ID  </TD>
+<TD>VisS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 030</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 242</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 014       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 014</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1329</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004243.7+411514          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004243.7+411514</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004243.7+411514</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004243.5+411511</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004243.6+411513</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-028  </TD>
+<TD>V*</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 032</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 253</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004244.81+411514.0    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004244.81+411514.0</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004248.89+411548.8    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004248.89+411548.8</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 442       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 442</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for CXO J004249.2+411601          ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>CXO J004249.2+411601</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 306</TD>
+<TD>XrayS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for NBol 010                      ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>NBol 010</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>C395640590</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>Bol 124</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>CXO J004241.4+411523</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004241.4+411523</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>CXOM31 J004241.4+411524</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMLPt 0981</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>XMMM31 J004241.5+411524</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMM J004241.3+411524</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>2XMMp J004241.4+411524</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[V62] vdB2</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[ACH92] F01N22</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[KGP2002] r1-032  </TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004241+411524</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[FMZ2005] 29</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[PFH2005] 307</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[VG2007] 033</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>[ZGV2011] 021</TD>
+<TD>**</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGM2012] 16</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[JSD2012] 1395</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[BGP2014] 229</TD>
+<TD>XrayS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[FJW2014] 1395</TD>
+<TD>*Cl</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 017       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 017</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 059       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 059</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1287</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.16+411621.0    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.16+411621.0</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004246.36+411659.5    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004246.36+411659.5</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.13+411554.4    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.13+411554.4</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.68+411551.1    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.68+411551.1</TD>
+<TD>IrS</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[SCM2012] PN193</TD>
+<TD>PN</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004244.30+411704.8    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004244.30+411704.8</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CFN87] Nova 01   ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CFN87] Nova 01</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:GCVS4.5 V0891</TD>
+<TD>V*</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 328       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 328</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1310</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.78+411632.2    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.78+411632.2</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004240.46+411644.6    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004240.46+411644.6</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.90+411541.8    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.90+411541.8</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2010-04a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2010-04a</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004248.59+411537.3    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004248.59+411537.3</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.61+411629.3    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.61+411629.3</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004246.19+411702.5    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004246.19+411702.5</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.28+411619.2    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.28+411619.2</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.19+411548.9    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.19+411548.9</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.47+411601.7    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.47+411601.7</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031:[CJF89] 015       ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031:[CJF89] 015</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[MMD2006] 1330</TD>
+<TD>EmLS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for C400441002                    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>C400441002</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>ACH 07</TD>
+<TD>*Cl</TD>
+</TR>
+<TR>
+<TD>MESSIER 031:[ACH92] F02N11</TD>
+<TD>PN</TD>
+</TR>
+<TR>
+<TD>[GFB2004] J004249+411643</TD>
+<TD>VisS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N2008-08a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N2008-08a</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.08+411602.5    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.08+411602.5</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for MESSIER 031 N1999-02a         ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>MESSIER 031 N1999-02a</TD>
+<TD>Nova</TD>
+</TR>
+<TR>
+<TD>WeCAPP N06</TD>
+<TD>Nova</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.04+411608.1    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.04+411608.1</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004239.19+411622.5    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004239.19+411622.5</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.29+411630.2    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.29+411630.2</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004249.42+411550.9    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004249.42+411550.9</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<TABLE ID="NED_NamesTable" name="Table of all names in NED for SSTSL2 J004244.22+411708.6    ">
+<DESCRIPTION> Table of the NED's names for the object</DESCRIPTION>
+
+<FIELD ID="name_col1" name="objname" ucd="meta.id;meta.main" datatype="char" arraysize="30">
+<DESCRIPTION> Valid NED name for the object</DESCRIPTION>
+</FIELD>
+<FIELD ID="name_col2" name="objtype" ucd="src.class" datatype="char" arraysize="*">
+<DESCRIPTION> NED's Object Type, associated with this name </DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>SSTSL2 J004244.22+411708.6</TD>
+<TD>IrS</TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+
