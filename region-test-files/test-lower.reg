@@ -1,0 +1,4 @@
+j2000
+polygon -0.2d -0.2d -0.2d 0.2d 0.2d 0.2d 0.2d -0.2d # color=orange
+polygon -0.4d -0.4d -0.4d 0.4d 0.4d 0.4d 0.4d -0.4d # color=red
+
