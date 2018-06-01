@@ -1,0 +1,1045 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.ivoa.net/xml/VOTable/v1.2" >
+<RESOURCE type="results">
+	<INFO name="QUERY_STATUS" value="OK"/>
+	<PARAM name="INPUT:POS" datatype="char" arraysize="*" value="0,0">
+		<DESCRIPTION>Search region center in the form "ra,dec" where the right ascension
+ra and declination dec are given in decimal degrees in the ICRS coordinate
+system. Embedded whitespace is not allowed.
+		</DESCRIPTION>
+	</PARAM>
+	<PARAM name="INPUT:SIZE" datatype="char" arraysize="*" value="0">
+		<DESCRIPTION>Search region angular width/height in the form "size_ra,size_dec" or "size".
+If a single number is provided, it is used as both the width and the height.
+The search region center (POS) defines the center of a TAN projection with
+the standard (N,E) basis; size_ra specifies the angular width along the E
+axis, and size_dec the angular height along the N axis. A special case is
+SIZE=0 or SIZE=0,0. This is equivalent to searching for all images
+overlapping POS (so long as INTERSECT is not ENCLOSED).
+		</DESCRIPTION>
+	</PARAM>
+	<PARAM name="INPUT:INTERSECT" datatype="char" arraysize="*" value="OVERLAPS">
+		<DESCRIPTION>A parameter that indicates how matched images should intersect the search
+region R. A value of COVERS means that returned images cover (include) R,
+ENCLOSED means that returned images are completely inside R, CENTER means
+that returned images contain the center of R (POS), and OVERLAPS, the default,
+means that returned images overlap R. Note that the search region boundary
+consists of great circles by construction, and images are approximated by
+connecting their corners with great circles. Intersection tests of the
+resulting sky-polygons are performed without further approximation.
+		</DESCRIPTION>
+		<VALUES type="legal">
+			<OPTION value="OVERLAPS"/>
+			<OPTION value="CENTER"/>
+			<OPTION value="COVERS"/>
+			<OPTION value="ENCLOSED"/>
+		</VALUES>
+	</PARAM>
+	<PARAM name="INPUT:FORMAT" datatype="char" arraysize="*" value="image/fits">
+		<DESCRIPTION>Requested output format. ALL or image/fits will return images matching the
+search region according to the spatial predicate given by INTERSECT, and a
+value of FORMAT will return metadata about this data-set. Any other value
+will result in an error. In particular, GRAPHIC formats are not supported
+by this service.
+		</DESCRIPTION>
+		<VALUES type="actual">
+			<OPTION value="ALL"/>
+			<OPTION value="image/fits"/>
+			<OPTION value="FORMAT"/>
+		</VALUES>
+	</PARAM>
+	<PARAM name="INPUT:mcen" datatype="char" arraysize="*" value="true">
+		<DESCRIPTION>If this parameter is passed with any value whatsoever, INTERSECT=CENTER
+and/or SIZE=0, then the image most centered on the search region center
+is returned (rather than all images containing the center).
+		</DESCRIPTION>
+	</PARAM>
+<TABLE>
+	<FIELD name="sia_title" datatype="char" arraysize="*" ucd="VOX:Image_Title">
+		<DESCRIPTION>Concise description of the image returned
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_url" datatype="char" arraysize="*" ucd="VOX:Image_AccessReference">
+		<DESCRIPTION>Image access reference URL.
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_naxes" datatype="int" ucd="VOX:Image_Naxes">
+		<DESCRIPTION>Number of Image Axes
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_fmt" datatype="char" arraysize="*" ucd="VOX:Image_Format">
+		<DESCRIPTION>MIME-type of the object pointed to by the image access reference URL
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_ra" datatype="double" ucd="POS_EQ_RA_MAIN" unit="deg">
+		<DESCRIPTION>ICRS right-ascension of the image center.
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_dec" datatype="double" ucd="POS_EQ_DEC_MAIN" unit="deg">
+		<DESCRIPTION>ICRS declination of the image center.
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_naxis" datatype="int" arraysize="*" ucd="VOX:Image_Naxis">
+		<DESCRIPTION>The image size in pixels along each axis
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_crpix" datatype="double" arraysize="*" ucd="VOX:WCS_CoordRefPixel" unit="pix">
+		<DESCRIPTION>Image pixel coordinates of the WCS reference pixel.
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_crval" datatype="double" arraysize="*" ucd="VOX:WCS_CoordRefValue" unit="deg">
+		<DESCRIPTION>World coordinates of the WCS reference pixel.
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_proj" datatype="char" arraysize="3" ucd="VOX:WCS_CoordProjection">
+		<DESCRIPTION>three character celestial projection code
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_scale" datatype="double" arraysize="*" ucd="VOX:Image_Scale" unit="deg/pix">
+		<DESCRIPTION>The scale of each image axis in degrees per pixel
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_cd" datatype="double" arraysize="*" ucd="VOX:WCS_CDMatrix" unit="deg/pix">
+		<DESCRIPTION>WCS CD matrix.
+		</DESCRIPTION>
+	</FIELD>
+	<PARAM name="sia_pixflags" datatype="char" arraysize="*" value="CZ" ucd="VOX:Image_PixFlags">
+		<DESCRIPTION>Image pixels are copied from a source image without change and contain valid flux (intensity) values.
+		</DESCRIPTION>
+	</PARAM>
+	<PARAM name="sia_radesys" datatype="char" arraysize="*" value="FK5" ucd="VOX:STC_CoordRefFrame">
+		<DESCRIPTION>Coordinate system reference frame
+		</DESCRIPTION>
+	</PARAM>
+	<PARAM name="sia_equinox" datatype="double" value="2000.0" ucd="VOX:STC_CoordEquinox">
+		<DESCRIPTION>Coordinate system equinox
+		</DESCRIPTION>
+	</PARAM>
+	<PARAM name="sia_bp_unit" datatype="char" arraysize="*" value="meters" ucd="VOX:BandPass_Unit">
+		<DESCRIPTION>Units used to represent spectral values
+		</DESCRIPTION>
+	</PARAM>
+	<FIELD name="sia_bp_id" datatype="char" arraysize="*" ucd="VOX:BandPass_ID">
+		<DESCRIPTION>Band pass ID
+		</DESCRIPTION>
+		<VALUES type="actual">
+			<OPTION value="W4"/>
+			<OPTION value="W3"/>
+			<OPTION value="W2"/>
+			<OPTION value="W1"/>
+		</VALUES>
+	</FIELD>
+	<FIELD name="sia_bp_ref" datatype="double" ucd="VOX:BandPass_RefValue">
+		<DESCRIPTION>Reference wave-length for band pass
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_bp_hi" datatype="double" ucd="VOX:BandPass_HiLimit">
+		<DESCRIPTION>Upper limit of the band pass
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="sia_bp_lo" datatype="double" ucd="VOX:BandPass_LoLimit">
+		<DESCRIPTION>Lower limit of the band pass
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="magzip" datatype="double">
+		<DESCRIPTION>photometric zero-point mag
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="magzip2" datatype="double">
+		<DESCRIPTION>1-sigma uncertainty in photometric zero-point mag
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="unc_url" datatype="char" arraysize="*">
+		<DESCRIPTION>URL for uncertainty image
+		</DESCRIPTION>
+	</FIELD>
+	<FIELD name="cov_url" datatype="char" arraysize="*">
+		<DESCRIPTION>URL for depth-of-coverage image
+		</DESCRIPTION>
+	</FIELD>
+<DATA><TABLEDATA>
+	<TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0077p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.741972000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.741972000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0077p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.741972000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.741972000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0077p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.741972000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.741972000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0077p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.741972000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.741972000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0077/0077p393_ac51/0077p393_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0096p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.677465000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.677465000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0096p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.677465000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.677465000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0096p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.677465000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.677465000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0096p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.677465000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.677465000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0096/0096p393_ac51/0096p393_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0116p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.612958000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.612958000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0116p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.612958000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.612958000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0116p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.612958000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.612958000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0116p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.612958000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.612958000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0116/0116p393_ac51/0116p393_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0135p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>13.548451000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>13.548451000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0135p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>13.548451000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>13.548451000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0135p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>13.548451000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>13.548451000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0135p393_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>13.548451000000</TD>
+<TD>39.375556000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>13.548451000000 39.375556000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0135/0135p393_ac51/0135p393_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0079p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.912125000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.912125000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0079p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.912125000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.912125000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0079p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.912125000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.912125000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0079p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>7.912125000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>7.912125000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0079/0079p408_ac51/0079p408_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0080p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>8.089941000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>8.089941000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0080p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>8.089941000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>8.089941000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0080p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>8.089941000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>8.089941000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0080p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>8.089941000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>8.089941000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0080/0080p424_ac51/0080p424_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0098p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.890156000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.890156000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0098p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.890156000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.890156000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0098p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.890156000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.890156000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0098p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>9.890156000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>9.890156000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/00/0098/0098p408_ac51/0098p408_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0101p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>10.112427000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>10.112427000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0101p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>10.112427000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>10.112427000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0101p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>10.112427000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>10.112427000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0101p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>10.112427000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>10.112427000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0101/0101p424_ac51/0101p424_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0118p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.868187000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.868187000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0118p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.868187000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.868187000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0118p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.868187000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.868187000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0118p408_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>11.868187000000</TD>
+<TD>40.890000000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>11.868187000000 40.890000000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0118/0118p408_ac51/0118p408_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W1 Coadd 0121p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w1-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>12.134912000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>12.134912000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W1</TD>
+<TD>3.35e-6</TD>
+<TD>3.78e-6</TD>
+<TD>3.13e-6</TD>
+<TD>20.50000</TD>
+<TD>0.006000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w1-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w1-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W2 Coadd 0121p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w2-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>12.134912000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>12.134912000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W2</TD>
+<TD>4.60e-6</TD>
+<TD>5.19e-6</TD>
+<TD>4.02e-6</TD>
+<TD>19.50000</TD>
+<TD>0.007000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w2-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w2-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W3 Coadd 0121p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w3-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>12.134912000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>12.134912000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W3</TD>
+<TD>11.56e-6</TD>
+<TD>16.27e-6</TD>
+<TD>7.60e-6</TD>
+<TD>18.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w3-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w3-cov-3.fits.gz</TD>
+
+	</TR><TR>
+<TD>WISE AllWISE Atlas (L3a) W4 Coadd 0121p424_ac51</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w4-int-3.fits</TD>
+<TD>2</TD>
+<TD>image/fits</TD>
+<TD>12.134912000000</TD>
+<TD>42.404444000000</TD>
+<TD>4095 4095</TD>
+<TD>2048.0 2048.0</TD>
+<TD>12.134912000000 42.404444000000</TD>
+<TD>SIN</TD>
+<TD>-0.000381944439141100 0.000381944439141100</TD>
+<TD>-0.0003819444391411 -0.0 -0.0 0.0003819444391411</TD>
+<TD>W4</TD>
+<TD>22.09e-6</TD>
+<TD>23.36e-6</TD>
+<TD>19.84e-6</TD>
+<TD>13.00000</TD>
+<TD>0.012000</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w4-unc-3.fits.gz</TD>
+<TD>http://irsa.ipac.caltech.edu/ibe/data/wise/allwise/p3am_cdd/01/0121/0121p424_ac51/0121p424_ac51-w4-cov-3.fits.gz</TD>
+
+	</TR>
+</TABLEDATA></DATA>
+</TABLE></RESOURCE></VOTABLE>
