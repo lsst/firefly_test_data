@@ -1,0 +1,7 @@
+global rotate=1
+physical;circle(0,0,150) # color=red text={This is a Circle}
+ellipse(465, 578, 40, 20, 60, 40, 80, 60, 30) # text={This is a ellipse annulus}
+box(10, 400, 40, 20, 60, 40, -30) # text={This is box annulus}
+line(200, 300, 280, 370) # text={a line}
+
+
