@@ -1942,7 +1942,7 @@
    <INFO ID="contains_lsst_measurements" name="contains_lsst_measurements" value="true"/>
    <INFO ID="FootPrintColumnNames" name="FootPrintColumnNames" value="id;footprint_corner1_x;footprint_corner1_y;footprint_corner2_x;footprint_corner2_y;spans;peaks"/>
    <INFO ID="pixelsys" name="pixelsys" value="zero-based"/>
-   <INFO ID="CatalogCoordColumns" name="CatalogCoordColumns" value="base_SdssCentroid_x;base_SdssCentroid_y;EQJ2000"/>
+   <INFO ID="CatalogCoordColumns" name="CatalogCoordColumns" value="base_SdssCentroid_x;base_SdssCentroid_y;zero-based"/>
   </TABLE>
  </RESOURCE>
 </VOTABLE>
