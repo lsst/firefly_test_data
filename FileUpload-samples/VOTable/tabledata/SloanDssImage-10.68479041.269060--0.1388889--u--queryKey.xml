@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://vizier.u-strasbg.fr/xml/VOTable-1.1.xsd">
+  <INFO name="QUERY_STATUS" value="ERROR">POS=10.68479,41.26906 outside SDSS footprint</INFO>
+  <INFO name="FieldsUrl">http://cas.sdss.org/vo/DR7Fields/sdssFields.asmx</INFO>
+  <INFO name="CutOutUrl">http://skyservice.pha.jhu.edu/DR7/ImgCutout/getjpeg.aspx</INFO>
+  <RESOURCE>
+    <PARAM datatype="char" name="INPUT:POS" value="10.684790,41.269060" arraysize="*" />
+    <PARAM datatype="char" name="INPUT:SIZE" value="0.1388889" arraysize="*" />
+    <PARAM datatype="char" name="INPUT:FORMAT" value="image/fits" arraysize="*" />
+    <PARAM datatype="char" name="INPUT:BANDPASS" value="u" arraysize="*" />
+    <TABLE>
+      <FIELD datatype="char" arraysize="*" />
+      <FIELD ID="width" datatype="int" ucd="VOX:Image_Pix_Width" />
+      <FIELD ID="height" datatype="int" ucd="VOX:Image_Pix_Height" />
+      <FIELD ID="size" datatype="double" ucd="VOX:Image_Size" />
+      <FIELD ID="RA" datatype="double" ucd="POS_EQ_RA_MAIN" />
+      <FIELD ID="DEC" datatype="double" ucd="POS_EQ_DEC_MAIN" />
+      <FIELD ID="scale" datatype="double" ucd="VOX:Image_Scale" arraysize="*" />
+      <FIELD ID="format" datatype="char" ucd="VOX:Image_Format" arraysize="*" />
+      <FIELD ID="url" datatype="char" ucd="VOX:Image_AccessReference" arraysize="*" />
+      <FIELD ID="equinox" datatype="double" ucd="VOX:Image_Equinox" />
+      <FIELD ID="naxes" datatype="int" ucd="VOX:Image_Naxes" />
+      <FIELD ID="naxis" datatype="int" ucd="VOX:Image_Naxis" arraysize="*" />
+      <FIELD ID="crtype" datatype="char" ucd="VOX:WCS_CoordProjection" arraysize="*" />
+      <FIELD ID="crpix" datatype="double" ucd="VOX:WCS_CoordRefPixel" arraysize="*" />
+      <FIELD ID="crval" datatype="double" ucd="VOX:WCS_CoordRefValue" arraysize="*" />
+      <FIELD ID="cdval" datatype="double" ucd="VOX:WCS_CDMatrix" arraysize="*" />
+      <DATA>
+        <TABLEDATA />
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+  <datarelease>DR7</datarelease>
+</VOTABLE>
