@@ -1,0 +1,20 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(18:02:42.000,-22:58:18.00,137.836") # color=magenta width=3 text={M20}
+circle(18:03:41.100,-24:22:37.00,120") # color=magenta width=3 text={Hourglass Nebula}
+circle(18:04:31.000,-24:21:30.00,142.909") # color=magenta width=3 text={NGC 6530}
+circle(18:03:12.000,-24:23:00.00,142.909") # color=magenta width=3 text={NGC 6523}
+circle(18:04:53.260,-24:26:42.30,99.2423") # color=magenta width=3 text={M8E}
+circle(18:09:45.000,-23:45:00.00,99.2423") # color=magenta width=3 text={Simeis 188}
+circle(18:03:52.450,-24:21:38.60,30") # color=magenta width=2 text={9 Sgr}
+circle(18:03:40.321,-24:22:42.86,30") # color=magenta width=2 text={Herschel 36}
+circle(18:05:10.550,-24:23:54.85,30") # color=magenta width=2 text={HD 165052}
+circle(18:04:24.000,-24:21:12.00,240") # color=magenta width=3 text={"the open cluster"}
+# ellipse(18:04:43.620,-24:30:43.35,60.9926",105.784",45) # color=yellow width=3 text={Dragon}
+# ellipse(18:03:56.330,-24:24:31.68,106.92",323.199",45) # color=yellow width=3 text={Great Rift}
+circle(18:03:37.000,-24:23:12.00,1584") # color=yellow width=3 text={Lagoon}
+box(18:04:43.620,-24:30:43.35,60.9926",105.784",45) # color=blue width=5 text={Dragon}
+box(18:03:56.330,-24:24:31.68,106.92",323.199",45) # color=blue width=5 text={Great Rift}
+
+box(18:04:32.450,-24:21:38.60, 0.76d, 0.75d, 3d) # color=green width=3  text={big_slant_box}
